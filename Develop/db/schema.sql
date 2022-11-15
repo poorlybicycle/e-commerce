@@ -22,3 +22,18 @@ CREATE TABLE product (
     REFERENCES category(id)
 );
 
+CREATE TABLE tag (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    --string??
+    tag_name STRING NOT NULL,
+);
+
+CREATE TABLE ProductTag (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    --string??
+    product_id INT NOT NULL
+    REFERENCES product(id),
+    tag_id INT 
+    REFERENCES tag(id)
+);
+
