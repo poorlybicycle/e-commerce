@@ -19,4 +19,4 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 
 ## Link to Walkthrough Video:
-https://drive.google.com/file/d/1UUSVeCLvBo2NIDG-kYV1RbOm10c5uozx/view
+https://drive.google.com/file/d/1WA_-J-__k-nqNTtvI3Z3jsshJUxLNr2P/view
